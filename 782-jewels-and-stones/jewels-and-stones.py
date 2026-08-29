@@ -5,12 +5,12 @@ class Solution(object):
         :type stones: str
         :rtype: int
         """
-        jewels_set=set(jewels)
+        #jewels_set=set(jewels)
         count=0
         for ch in stones:
-            if ch in jewels_set:
+            if ch in jewels:
                 count+=1
-                print(ch)
+                #print(ch)
         
         return count
         
